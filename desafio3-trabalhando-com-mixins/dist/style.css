@@ -1,0 +1,10 @@
+@media (min-width: 320px) and (max-width: 790px) {
+  .my-class {
+    color: red;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

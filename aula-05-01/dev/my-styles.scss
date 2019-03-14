@@ -1,0 +1,18 @@
+/* O @mixin Eles ajudam a definir regras que podem ser reutilizadas onde quisermos.
+São como funções, onde podemos passar ou não parâmetros, e eles nos retornam uma ou mais propriedades.*/
+
+@mixin error-box{
+	color: red;
+	background-color: white;
+	border: 5px solid red;	
+}
+
+.my-box{
+	font-size: 18px;
+	padding: 10px;
+	@include error-box; // Inclui o @mixin pre definido
+}
+
+.my-box2{
+	@include error-box;
+}

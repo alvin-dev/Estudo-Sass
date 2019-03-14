@@ -1,0 +1,17 @@
+$widthSize: 100px 200px 300px 440px 550px;
+
+@each $i in $widthSize {
+    .btn-#{$i}{
+        width: $i;
+    }
+}
+
+@for $i from 1 through 5 {
+    .btn-#{$i}{
+        @if $i < 4{
+            width: 100px * $i; 
+        } @else{
+            width: 110px * $i;
+        }
+    }
+}

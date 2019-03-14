@@ -1,0 +1,19 @@
+%btn{
+    padding: 10px 20px;
+    min-width: 120px;
+}
+
+.btn-generic{
+    background-color: gray;
+    @extend %btn;
+}
+
+.btn-confirm{
+    background-color: green;
+    @extend %btn;
+}
+
+.btn-cancel{
+    background-color: red;
+    @extend %btn;
+}

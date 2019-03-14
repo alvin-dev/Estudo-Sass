@@ -1,0 +1,7 @@
+$a: abc;
+$cor: color;
+
+.my-class-#{$a}{
+	color: red;
+	#{$cor}: blue;
+}
